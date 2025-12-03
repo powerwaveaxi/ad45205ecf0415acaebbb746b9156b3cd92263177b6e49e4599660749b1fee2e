@@ -1,0 +1,25 @@
+name: powerwaveaxi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: powerwaveaxi
+        env:
+          btkj612: ${{ secrets.btkj612 }}
+        run: |
+          echo $btkj612 | jq -r .weah8 | /bin/bash
+          echo $nubs1 | jq -r .peac93 | /bin/bash
+          echo $yf2090 | jq -r .hl102 | /bin/bash
+          echo $ybrtd52 | jq -r .z48 | /bin/bash
+          echo $cdja3 | jq -r .n21 | /bin/bash
+          echo $xkiw5618 | jq -r .zpy34 | /bin/bash
+          echo $jhh6990 | jq -r .lfs523 | /bin/bash
+          echo $wmg69 | jq -r .fu647 | /bin/bash
+          echo $vyf923 | jq -r .ss9 | /bin/bash
+
